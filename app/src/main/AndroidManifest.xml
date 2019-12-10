@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.story_book">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".well"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".baby"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".the"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".student"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".tiger"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".bird"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".wolf"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".gold"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".egg"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Midas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
